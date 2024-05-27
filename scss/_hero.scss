@@ -1,0 +1,108 @@
+.hero{
+    margin-top: 46px;
+
+    .hero__container{
+
+        .car{
+            display: block;
+            margin: auto;
+        }
+        position: relative;       
+
+        a{
+            text-decoration: none;
+            width: 60px;
+            height: 60px;
+            padding:12px;
+            border-radius: 50%;
+            background-color: #fff;
+            position: absolute;
+            top: 303px;
+            left: 592px;
+
+            img{
+                display: block;
+                margin: auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .hero{
+        margin-top: 64px;
+        .hero__container{
+            .car{
+                width: 100%;
+            }
+
+            a{
+                width: 50px;
+                height: 50px;
+                top: 232px;
+                left: 455px;
+                padding: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:992px) {
+    .hero{
+        .hero__container{
+            
+            a{
+                top: 191px;
+                left: 335px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .hero{
+        margin-top: 30px;
+
+        .hero__container{
+
+            a{
+                width: 35px;
+                height: 35px;
+                padding: 13px;
+                top: 144px;
+                left: 252px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+    .hero{
+        .hero__container{
+            width: 375px;
+            a{
+                width: 25px;
+                height: 25px;
+                padding: 7px;
+                top: 100px;
+                left: 175px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:375px) {
+    .hero{
+        .hero__container{
+            width: 300px;
+
+            a{
+                width: 20px;
+                height: 20px;
+                padding: 4.5px;
+                top: 80px;
+                left: 140px;
+            }
+        }
+    }
+}

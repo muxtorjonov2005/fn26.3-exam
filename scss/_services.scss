@@ -1,0 +1,121 @@
+.service {
+  padding-top: 67px;
+
+  .service__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 122px 56px 80px;
+    box-shadow: 0 4px 20px #00000026;
+    border-radius: 20px;
+  }
+
+  .block {
+    width: 228px;
+
+    h3 {
+      margin-top: 24px;
+      margin-bottom: 16px;
+      font-family: "Exo 2";
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 27px;
+      color: #363738;
+    }
+    p {
+      font-family: "PT Sans";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      color: #6B6B6C;
+    }
+  }
+
+  .block2{
+    width: 292px;
+    padding-left: 64px;
+    border-left: 1px  solid #D7D7DD;
+  }
+}
+
+@media screen and (max-width:1200px) {
+    .service{
+
+        .service__container{
+            padding: 20px 10px 28px 20px;
+        }
+
+        .block2{
+            width: 252px;
+            padding-left: 24px;
+            border-left: 1px  solid #D7D7DD;
+          }
+    }
+}
+
+@media screen and (max-width:992px) {
+    .service{
+        padding-top: 41px;
+
+        .service__container{
+            display: flex;
+            flex-direction: column;
+            box-shadow: none;
+            gap: 16px;
+            padding: 0;
+        }
+
+        .block{
+            width: 100%;
+            box-shadow: 0 4px 20px #00000026;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            padding: 32px 10px 40px 32px;
+
+            h3{
+                margin-bottom: 20px;
+                margin-top: 0;
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+    .service{
+        padding-top: 56px;
+
+        .service__container{
+            display: flex;
+            gap: 24px;
+            box-shadow: 0 4px 20px #00000026;
+            border-radius: 20px;
+            padding: 24px 27px;
+        }
+
+        .block{
+           padding: 0 ;
+           box-shadow: none;
+           display: flex;
+           flex-direction: column;
+           align-items: flex-start;
+           gap: 16px;
+
+           h3{
+            width: 205px;
+            margin-bottom: 12px;
+            font-size: 18px;
+            line-height: 24.3px;
+           }
+           p{
+            font-size: 15px;
+            line-height: 22.5px;
+           }
+        }
+
+        .block2{
+            border: none;
+        }
+    }
+}

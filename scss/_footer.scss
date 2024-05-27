@@ -1,0 +1,189 @@
+.footer {
+  margin-top: 156px;
+  margin-bottom: 200px;
+  padding: 60px 10px 125px;
+  background-color: #0b7572;
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-family: "Exo 2";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    letter-spacing: 0.16em;
+    transition: all 0.5s;
+
+    &:hover {
+      color: #3697e6;
+    }
+  }
+
+  .foot {
+    font-size: 14px;
+    line-height: 18px;
+    display: block;
+    text-align: center;
+    letter-spacing: 5px;
+  }
+
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 66px;
+
+    .logo {
+      width: 176px;
+    }
+
+    .footer__nav {
+      width: 350px;
+      display: flex;
+      gap: 97px;
+    }
+  }
+
+  .footer__block {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    a {
+      width: 133px;
+    }
+  }
+
+  .links {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+
+    .footer__link {
+      display: flex;
+      gap: 24px;
+    }
+
+    a {
+      font-weight: 600;
+    }
+
+    .but {
+      padding: 8px 11px;
+      background-color: #ff9619;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+
+      &:hover {
+        background-color: #97611e;
+        color: #fff;
+      }
+      span {
+        font-family: "Open Sans";
+        font-size: 13px;
+        line-height: 19.5px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .footer {
+    margin-top: 106px;
+
+    a {
+      font-size: 8px;
+      line-height: 12px;
+    }
+
+    .footer__container {
+      .logo {
+        width: 95px;
+      }
+
+      .footer__nav {
+        width: 266px;
+        gap: 50px;
+      }
+    }
+
+    .foot {
+      letter-spacing: 2px;
+    }
+
+    .footer__block {
+      gap: 15px;
+
+      a {
+        width: 101px;
+      }
+    }
+
+    .links {
+      gap: 20px;
+
+      .footer__link {
+        gap: 12px;
+      }
+
+      .but {
+        padding: 5px;
+
+        span {
+          font-size: 6px;
+          line-height: 9px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:768px) {
+  .footer {
+    margin-top: 25px;
+    padding-top: 24px;
+
+    a {
+      font-size: 8px;
+      line-height: 12px;
+    }
+
+    .foot {
+      font-size: 10px;
+      line-height: 15px;
+    }
+
+    .footer__container {
+      margin-bottom: 16px;
+      flex-direction: column;
+      gap: 23px;
+
+      .logo{
+        width: 65px;
+      }
+    }
+
+    .footer__block{
+        gap: 21px;
+    }
+
+    .links{
+        .footer__link{
+            gap: 16px;
+            margin-bottom: 64px;
+        }
+
+        .but{
+            margin: auto;
+            margin-top: 24px;
+            padding: 16px;
+            
+            span{
+                margin: auto;
+            }
+        }
+    }
+  }
+
+}

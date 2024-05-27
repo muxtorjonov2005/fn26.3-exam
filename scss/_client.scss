@@ -1,0 +1,241 @@
+.client {
+  margin-top: 212px;
+
+  .info__desc{
+    display: none;
+  }
+
+  .client__container {
+    padding: 85px 60px 85px 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0b7572;
+
+    h2 {
+      font-family: "Exo 2";
+      font-size: 48px;
+      line-height: 60px;
+      font-weight: 600;
+      color: #fff;
+    }
+  }
+
+  .client__info {
+    width: 680px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 28px 32px 40px;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  .info__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+    border-bottom: 1px solid #d7d7dd;
+
+    p {
+      width: 275px;
+      font-weight: 400;
+      font-family: "PT Sans";
+      font-size: 11px;
+      line-height: 16.5px;
+      color: #6b6b6c;
+    }
+  }
+
+  table {
+    font-family: "PT Sans";
+    border-collapse: collapse;
+    border-radius: 2px;
+  }
+
+  th {
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #fff;
+    padding: 35px 0;
+    background-color: #0b7572;
+    border: 1px solid #00000033;
+  }
+
+  td {
+    text-align: start;
+    font-size: 14px;
+    line-height: 18.9px;
+    color: #6b6b6c;
+    padding: 24px 16px;
+    border: 1px solid #00000033;
+    background-color: #f9f9fb;
+
+    h4 {
+      margin-top: 10px;
+      font-family: "Exo 2";
+      font-size: 14px;
+      font-weight: 600;
+      color: #363738;
+    }
+
+    h5 {
+      font-size: 14px;
+      line-height: 18.9px;
+      color: #363738;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    a {
+      display: block;
+      margin-top: 12px;
+      font-size: 14px;
+      color: #363738;
+      letter-spacing: -0.96px;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .client {
+    margin-top: 150px;
+
+    .client__container {
+      padding: 65px 40px;
+      display: flex;
+      justify-content: space-between;
+      background-color: #0b7572;
+
+      h2 {
+        font-family: "Exo 2";
+        font-size: 42px;
+        line-height: 54px;
+        font-weight: 600;
+        color: #fff;
+      }
+    }
+    .client__info {
+      padding: 22px 26px 35px;
+    }
+  }
+
+  .info__desc {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .client {
+    .client__container {
+      display: flex;
+      flex-direction: column;
+      padding: 55px 25px;
+
+      h2 {
+        width: 300px;
+        margin-bottom: 48px;
+      }
+    }
+
+    .client__info {
+      width: 660px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .client {
+    margin-top: 120px;
+
+    .client__container {
+      padding: 25px 12px;
+
+      h2 {
+        width: 100%;
+        font-size: 28px;
+        line-height: 35px;
+        margin-bottom: 40px;
+      }
+    }
+
+    .client__info {
+      width: 100%;
+      padding: 24px 16px;
+      border-radius: 4px;
+      height: 512px;
+      overflow-y: auto;
+    }
+
+    .info__header {
+      margin-bottom: 24px;
+      padding: 0;
+      border: none;
+      p {
+        display: none;
+      }
+    }
+
+    table {
+      display: none;
+    }
+
+    .info__desc {
+      display: block;
+      border-radius: 2px;
+
+      h3 {
+        padding: 16px;
+        background-color: #0b7572;
+        font-family: "Exo 2";
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 22.5px;
+        color: #ffffff;
+      }
+
+      .about__desc {
+        background-color: #f9f9fb;
+        padding: 18px 16px;
+      }
+    }
+
+    .desc__block {
+      p {
+        font-family: "PT Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18.9px;
+        color: #6b6b6c;
+        margin-bottom: 12px;
+      }
+
+      h4 {
+        font-family: "Exo 2";
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18.9px;
+        color: #363738;
+      }
+    }
+
+    .desc__block1{
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        margin-bottom: 24px;
+
+        p{
+            margin-bottom: 16px;
+        }
+    }
+
+    .desc__block2{
+        margin-bottom: 24px;
+        padding-top: 16px;
+        border-top: 1px solid #D7D7DD;
+    }
+  }
+}
