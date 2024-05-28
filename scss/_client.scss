@@ -1,7 +1,7 @@
 .client {
   margin-top: 212px;
 
-  .info__desc{
+  .info__desc {
     display: none;
   }
 
@@ -221,21 +221,21 @@
       }
     }
 
-    .desc__block1{
-        display: flex;
-        gap: 16px;
-        align-items: center;
-        margin-bottom: 24px;
+    .desc__block1 {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 24px;
 
-        p{
-            margin-bottom: 16px;
-        }
+      p {
+        margin-bottom: 16px;
+      }
     }
 
-    .desc__block2{
-        margin-bottom: 24px;
-        padding-top: 16px;
-        border-top: 1px solid #D7D7DD;
+    .desc__block2 {
+      margin-bottom: 24px;
+      padding-top: 16px;
+      border-top: 1px solid #d7d7dd;
     }
   }
 }

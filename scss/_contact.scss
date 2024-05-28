@@ -78,74 +78,72 @@ $darkgray: #363738;
       }
     }
 
-    .line2{
-        margin-bottom: 0;
-        border: none;
+    .line2 {
+      margin-bottom: 0;
+      border: none;
     }
   }
 }
 
-
-@media screen and (max-width:1200px) {
-    .contact{
-        .contact__desc{
-            width: 700px;
-        }
+@media screen and (max-width: 1200px) {
+  .contact {
+    .contact__desc {
+      width: 700px;
     }
+  }
 }
 
-@media screen and (max-width:992px) {
-    .contact{
-        margin-top: 150px;
+@media screen and (max-width: 992px) {
+  .contact {
+    margin-top: 150px;
 
-        h2{
-            font-size: 44px;
-            line-height: 55px;
-            margin-bottom: 56px;
-        }
-
-        .contact__info{
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 64px;
-        }
+    h2 {
+      font-size: 44px;
+      line-height: 55px;
+      margin-bottom: 56px;
     }
+
+    .contact__info {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 64px;
+    }
+  }
 }
 
-@media screen and (max-width:768px) {
-    .contact{
-        margin-top: 116px;
+@media screen and (max-width: 768px) {
+  .contact {
+    margin-top: 116px;
 
-        h2{
-            font-size: 28px;
-            line-height: 35px;
-            margin-bottom: 56px;
-        }
-
-        .contact__desc{
-            .about__contact{
-                width: 255px;
-            }
-
-        }
-
-        .contact__item{
-            margin-bottom: 48px;
-            h4{
-                font-size: 15px;
-                line-height: 22.5px;
-            }
-        }
-
-        .contact__desc{
-            width: 100%;
-            padding: 48px 24px;
-
-            .desc__line{
-                flex-direction: column;
-                gap: 14px;
-                padding-bottom: 24px;
-            }
-        }
+    h2 {
+      font-size: 28px;
+      line-height: 35px;
+      margin-bottom: 56px;
     }
+
+    .contact__desc {
+      .about__contact {
+        width: 255px;
+      }
+    }
+
+    .contact__item {
+      margin-bottom: 48px;
+      h4 {
+        font-size: 15px;
+        line-height: 22.5px;
+      }
+    }
+
+    .contact__desc {
+      width: 100%;
+      padding: 48px 24px;
+
+      .desc__line {
+        flex-direction: column;
+        gap: 14px;
+        padding-bottom: 24px;
+      }
+    }
+  }
 }

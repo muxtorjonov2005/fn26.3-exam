@@ -1,48 +1,47 @@
-@import './font';
-@import './normalize';
-@import './main';
-@import './services';
-@import './whyus';
-@import './ourwork';
-@import './client';
-@import './step';
-@import './clientlogo';
-@import './ourteam';
-@import './contact';
-@import './hero';
-@import './footer';
+@import "./font";
+@import "./normalize";
+@import "./main";
+@import "./services";
+@import "./whyus";
+@import "./ourwork";
+@import "./client";
+@import "./step";
+@import "./clientlogo";
+@import "./ourteam";
+@import "./contact";
+@import "./hero";
+@import "./footer";
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    padding: 0 10px;
-    max-width: 1240px;
-    width: 100%;
-    margin: auto;
+.container {
+  padding: 0 10px;
+  max-width: 1240px;
+  width: 100%;
+  margin: auto;
 }
 
-@media screen and (max-width:1200px) {
-    .container{
-        max-width: 960px;
-    }
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
 }
 
-@media screen and (max-width:992px) {
-    .container{
-        max-width: 720px;
-    }
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
 }
 
-@media screen and (max-width:768px){
-    .container{
-        max-width: 540px;
-    }
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
 }
 
-@media screen and (max-width:576px) {
-    
+@media screen and (max-width: 576px) {
 }

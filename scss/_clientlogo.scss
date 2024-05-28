@@ -53,77 +53,75 @@ $pt: "PT Sans";
     border: 1px solid #d7d7dd;
     height: 183px;
   }
-
 }
 
+@media screen and (max-width: 992px) {
+  .client-logo {
+    margin-top: 88px;
 
-@media screen and (max-width:992px) {
-    .client-logo{
-        margin-top: 88px;
-
-        .sponsor{
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .spons__top{
-            display: flex;
-            flex-direction: column;
-            margin-bottom: 0;
-        }
-
-        .spons__bottom{
-            display: flex;
-            flex-direction: column;
-        }
-        span{
-            display: none;
-        }
-
-        .spons__item{
-            margin-bottom: 40px;
-            h5{
-                margin-top: 12px;
-                margin-bottom: 14px;
-            }
-        }
-
-        .spons__item2{
-            width: 320px;
-            padding-left: 65px ;
-            border-left: 1px solid #6b6b6c;
-        }
+    .sponsor {
+      display: flex;
+      justify-content: space-between;
     }
+
+    .spons__top {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 0;
+    }
+
+    .spons__bottom {
+      display: flex;
+      flex-direction: column;
+    }
+    span {
+      display: none;
+    }
+
+    .spons__item {
+      margin-bottom: 40px;
+      h5 {
+        margin-top: 12px;
+        margin-bottom: 14px;
+      }
+    }
+
+    .spons__item2 {
+      width: 320px;
+      padding-left: 65px;
+      border-left: 1px solid #6b6b6c;
+    }
+  }
 }
 
-@media screen and (max-width:768px) {
-    .client-logo{
-        margin-top: 64px;
+@media screen and (max-width: 768px) {
+  .client-logo {
+    margin-top: 64px;
 
-        .sponsor{
-            overflow-y: auto;
-            height: 400px;
-        }
-
-        .spons__item{
-            width: 175px;
-            text-align: center;
-            margin-bottom: 48px;
-            h5{
-                font-size: 18px;
-                margin-top: 24px;
-                margin-bottom: 12px;
-            }
-
-            h6{
-                font-size: 14px;
-                line-height: 18.9px;
-            }
-        }
-
-        .spons__item2{
-            border: none;
-            padding: 0;
-        }
+    .sponsor {
+      overflow-y: auto;
+      height: 400px;
     }
+
+    .spons__item {
+      width: 175px;
+      text-align: center;
+      margin-bottom: 48px;
+      h5 {
+        font-size: 18px;
+        margin-top: 24px;
+        margin-bottom: 12px;
+      }
+
+      h6 {
+        font-size: 14px;
+        line-height: 18.9px;
+      }
+    }
+
+    .spons__item2 {
+      border: none;
+      padding: 0;
+    }
+  }
 }

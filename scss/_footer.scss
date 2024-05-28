@@ -139,7 +139,7 @@
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .footer {
     margin-top: 25px;
     padding-top: 24px;
@@ -159,31 +159,30 @@
       flex-direction: column;
       gap: 23px;
 
-      .logo{
+      .logo {
         width: 65px;
       }
     }
 
-    .footer__block{
-        gap: 21px;
+    .footer__block {
+      gap: 21px;
     }
 
-    .links{
-        .footer__link{
-            gap: 16px;
-            margin-bottom: 64px;
-        }
+    .links {
+      .footer__link {
+        gap: 16px;
+        margin-bottom: 64px;
+      }
 
-        .but{
-            margin: auto;
-            margin-top: 24px;
-            padding: 16px;
-            
-            span{
-                margin: auto;
-            }
+      .but {
+        margin: auto;
+        margin-top: 24px;
+        padding: 16px;
+
+        span {
+          margin: auto;
         }
+      }
     }
   }
-
 }
